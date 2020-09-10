@@ -10,5 +10,23 @@
         <atom:link href="https://devashish.me/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+        <item>
+        <title>Initial Commit</title>
+        <link>https://devashish.me/initial_commit/</link>
+        <pubDate>Thu, 10 Sep 2020 14:04:26 -0700</pubDate>
+        
+        <guid>https://devashish.me/initial_commit/</guid>
+        <description>devashish.me https://devashish.me/initial_commit/ -&lt;p&gt;testing
+this is doms
+asdf
+asf
+fsd
+fasfasfsafasf
+asdfasdf&lt;/p&gt;
+- https://devashish.me/initial_commit/ - Devashish Meena; All rights reserved</description>
+        </item>
+    
+    
   </channel>
 </rss> 
