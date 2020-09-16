@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Categories</title>
+<title>About</title>
 
 
 
@@ -51,6 +51,10 @@
 
 
 
+  
+    <script src="https://devashish.me//js/toc-collapse.js"></script>
+  
+
 
 
 
@@ -82,11 +86,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/categories">
+            <a class="a-block nav-link-item false" href="/categories">
                 Categories
             </a>
             
@@ -114,9 +116,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/about">
+            
+            <a class="a-block nav-link-item active" href="/about">
                 About
             </a>
             
@@ -140,6 +144,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -157,8 +166,6 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
         </a>
         
         
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -171,11 +178,9 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/categories">
+                <a class="a-block drawer-menu-item false" href="/categories">
                     Categories
                 </a>
                 
@@ -203,13 +208,20 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/about">
+                
+                <a class="a-block drawer-menu-item active" href="/about">
                     About
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+</div>
             
         </div>
     </div>
@@ -254,27 +266,101 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <a class="a-block">
-            <div class="post-item-wrapper post-item-wrapper-no-hover">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title post-item-title-small">
-                            Categories
-                        </div>
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    About
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-06-01 23:16
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                            <i class="material-icons" style="">schedule</i>
+                            
+
+                            
+                            
+
+                            
+                            40 s.
+                        
                     </div>
                 </div>
             </div>
-        </a>
-        
-        
-    </div>
-</div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>I have 10+ years of experience working for 4 early stage startups (two exits),
+building enterprise and consumer products from ground
+up. During this time, I&rsquo;ve led distributed teams to deliver secure, scalable
+and high growth products.</p>
+<p>My primary focus has been to design iterable application architecture to deliver
+maximum value. I&rsquo;ve built products that help organizations and teams
+deploy their code faster, flowing through a series of complex DevOps transitions
+and gateways.</p>
+<p>Using the automation-first approach, I believe in creating processes to
+optmize developer productivity, democratize team learning and maximize cross
+team collaboration.</p>
+<p>When not working, I like to cook, hike, play tennis, ride my motorcycle or think
+of ways to automate some part of my life.</p>
+<p><strong>Disclaimers</strong>:</p>
+<ul>
+<li>All views expressed on this site are my own and do not represent the opinions of my employers or any other organization.</li>
+<li>All images © 2011-2020 Devashish Meena.</li>
+</ul>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2020-06-01</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://devashish.me/posts/initial_commit/">
+			Next<br>Initial Commit
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 

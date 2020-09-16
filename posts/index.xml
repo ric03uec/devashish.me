@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on devashish.me</title>
+    <link>https://devashish.me/posts/</link>
+    <description>Recent content in Posts on devashish.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Devashish Meena; All rights reserved</copyright>
+    <lastBuildDate>Thu, 10 Sep 2020 14:04:26 -0700</lastBuildDate>
+    
+	<atom:link href="https://devashish.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Initial Commit</title>
+      <link>https://devashish.me/posts/initial_commit/</link>
+      <pubDate>Thu, 10 Sep 2020 14:04:26 -0700</pubDate>
+      
+      <guid>https://devashish.me/posts/initial_commit/</guid>
+      <description>testing this is doms asdf asf fsd fasfasfsafasf asdfasdf</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://devashish.me/about/</link>
+      <pubDate>Mon, 01 Jun 2020 23:16:31 -0700</pubDate>
+      
+      <guid>https://devashish.me/about/</guid>
+      <description>I have 10+ years of experience working for 4 early stage startups (two exits), building enterprise and consumer products from ground up. During this time, I&amp;rsquo;ve led distributed teams to deliver secure, scalable and high growth products.
+My primary focus has been to design iterable application architecture to deliver maximum value. I&amp;rsquo;ve built products that help organizations and teams deploy their code faster, flowing through a series of complex DevOps transitions and gateways.</description>
+    </item>
+    
+  </channel>
+</rss>
