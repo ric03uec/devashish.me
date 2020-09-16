@@ -6,9 +6,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Devashish Meena; All rights reserved</copyright>
-    <lastBuildDate>Mon, 01 Jun 2020 23:16:31 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 14:04:26 -0700</lastBuildDate>
     
         <atom:link href="https://devashish.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Initial Commit</title>
+        <link>https://devashish.me/posts/initial_commit/</link>
+        <pubDate>Wed, 16 Sep 2020 14:04:26 -0700</pubDate>
+        
+        <guid>https://devashish.me/posts/initial_commit/</guid>
+        <description>devashish.me https://devashish.me/posts/initial_commit/ -&lt;p&gt;For the V4 version of this blog, I&amp;rsquo;ve decided to remove all the old entries and start
+from scratch. With one significant change though: posting tech content only.&lt;/p&gt;
+&lt;p&gt;Over time I&amp;rsquo;ve lost interest in writing travel blogs and inflicting my unfiltered
+thoughts on public forums. At the same time, I&amp;rsquo;d started documenting my
+experiences and learnings at work, conversations with other people in industry
+and takeaways from reading up on the topics that excite me.&lt;/p&gt;
+&lt;p&gt;I (re)started this blog with a few objectives&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Document my journey in building tech solutions&lt;/li&gt;
+&lt;li&gt;Keep notes about interesting concepts, their implementations and other aspects&lt;/li&gt;
+&lt;li&gt;Have discussion(s) about the &amp;ldquo;right&amp;rdquo; way to solve problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To new beginnings!&lt;/p&gt;
+- https://devashish.me/posts/initial_commit/ - Devashish Meena; All rights reserved</description>
+        </item>
     
     
     

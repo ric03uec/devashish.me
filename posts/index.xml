@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Devashish Meena; All rights reserved</copyright>
-    <lastBuildDate>Mon, 01 Jun 2020 23:16:31 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 14:04:26 -0700</lastBuildDate>
     
 	<atom:link href="https://devashish.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Initial Commit</title>
+      <link>https://devashish.me/posts/initial_commit/</link>
+      <pubDate>Wed, 16 Sep 2020 14:04:26 -0700</pubDate>
+      
+      <guid>https://devashish.me/posts/initial_commit/</guid>
+      <description>For the V4 version of this blog, I&amp;rsquo;ve decided to remove all the old entries and start from scratch. With one significant change though: posting tech content only.
+Over time I&amp;rsquo;ve lost interest in writing travel blogs and inflicting my unfiltered thoughts on public forums. At the same time, I&amp;rsquo;d started documenting my experiences and learnings at work, conversations with other people in industry and takeaways from reading up on the topics that excite me.</description>
+    </item>
     
     <item>
       <title>About</title>
