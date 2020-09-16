@@ -3,22 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devashish.me/</loc>
-    <lastmod>2020-09-10T14:04:26-07:00</lastmod>
+    <loc>https://devashish.me/about/</loc>
+    <lastmod>2020-06-01T23:16:31-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devashish.me/posts/initial_commit/</loc>
-    <lastmod>2020-09-10T14:04:26-07:00</lastmod>
+    <loc>https://devashish.me/</loc>
+    <lastmod>2020-06-01T23:16:31-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://devashish.me/posts/</loc>
-    <lastmod>2020-09-10T14:04:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devashish.me/about/</loc>
     <lastmod>2020-06-01T23:16:31-07:00</lastmod>
   </url>
   
