@@ -6,10 +6,6 @@
     <description>Recent content in Tags on devashish.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Devashish Meena; All rights reserved</copyright>
-    
-	<atom:link href="https://devashish.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Devashish Meena; All rights reserved</copyright><atom:link href="https://devashish.me/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
