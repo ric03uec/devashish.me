@@ -4,19 +4,17 @@
     <title>Posts on devashish.me</title>
     <link>https://devashish.me/posts/</link>
     <description>Recent content in Posts on devashish.me</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Devashish Meena; All rights reserved</copyright>
-    <lastBuildDate>Wed, 16 Sep 2020 14:04:26 -0700</lastBuildDate><atom:link href="https://devashish.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Devashish Meena; All rights reserved</copyright>
+    <lastBuildDate>Wed, 16 Sep 2020 14:04:26 -0700</lastBuildDate>
+    <atom:link href="https://devashish.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Initial Commit</title>
       <link>https://devashish.me/posts/initial_commit/</link>
       <pubDate>Wed, 16 Sep 2020 14:04:26 -0700</pubDate>
-      
       <guid>https://devashish.me/posts/initial_commit/</guid>
-      <description>For the V4 version of this blog, I&amp;rsquo;ve decided to remove all the old entries and start from scratch. With one significant change though: posting tech content only.
-Over time I&amp;rsquo;ve lost interest in writing travel blogs and inflicting my unfiltered thoughts on public forums. At the same time, I&amp;rsquo;d started documenting my experiences and learnings at work, conversations with other people in industry and takeaways from reading up on the topics that excite me.</description>
+      <description>&lt;p&gt;For the V4 version of this blog, I&amp;rsquo;ve decided to remove all the old entries and start&#xA;from scratch. With one significant change though: posting tech content only.&lt;/p&gt;&#xA;&lt;p&gt;Over time I&amp;rsquo;ve lost interest in writing travel blogs and inflicting my unfiltered&#xA;thoughts on public forums. At the same time, I&amp;rsquo;d started documenting my&#xA;experiences and learnings at work, conversations with other people in industry&#xA;and takeaways from reading up on the topics that excite me.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

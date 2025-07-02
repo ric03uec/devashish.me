@@ -1,3 +1,4 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devashish.me</title>
@@ -5,8 +6,8 @@
     <description>Recent content on devashish.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Devashish Meena; All rights reserved</copyright>
-    <lastBuildDate>Wed, 16 Sep 2020 14:04:26 -0700</lastBuildDate>
+    <copyright>© 2025 Devashish Meena; All rights reserved</copyright>
+    <lastBuildDate>Fri, 29 Nov 2024 23:16:31 -0700</lastBuildDate>
     
         <atom:link href="https://devashish.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -33,7 +34,7 @@ but have also fostered team learning and cross-functional collaboration.&lt;/p&g
 &lt;li&gt;All views expressed on this site are my own and do not represent the opinions of my employers or any other organization.&lt;/li&gt;
 &lt;li&gt;All images © 2024 Devashish Meena.&lt;/li&gt;
 &lt;/ul&gt;
-- https://devashish.me/about/ - Devashish Meena; All rights reserved</description>
+- https://devashish.me/about/ - © 2025 Devashish Meena; All rights reserved</description>
         </item>
     
     
@@ -57,7 +58,7 @@ and takeaways from reading up on the topics that excite me.&lt;/p&gt;
 &lt;li&gt;Have discussion(s) about the &amp;ldquo;right&amp;rdquo; way to solve problems&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;To new beginnings!&lt;/p&gt;
-- https://devashish.me/posts/initial_commit/ - Devashish Meena; All rights reserved</description>
+- https://devashish.me/posts/initial_commit/ - © 2025 Devashish Meena; All rights reserved</description>
         </item>
     
     
