@@ -7,6 +7,21 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2025 Devashish Meena; All rights reserved</copyright>
+    <lastBuildDate>Tue, 19 Aug 2025 14:04:26 -0700</lastBuildDate>
     <atom:link href="https://devashish.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Adoption</title>
+      <link>https://devashish.me/categories/ai-adoption/</link>
+      <pubDate>Tue, 19 Aug 2025 14:04:26 -0700</pubDate>
+      <guid>https://devashish.me/categories/ai-adoption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>https://devashish.me/categories/general/</link>
+      <pubDate>Tue, 19 Aug 2025 14:04:26 -0700</pubDate>
+      <guid>https://devashish.me/categories/general/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

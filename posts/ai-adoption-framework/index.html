@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>AI Adoption Framework for Engineering Teams</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="A goal-driven approach for engineering teams to adopt AI tools">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.fa793cdb4ae2d683f9cccdaf1c7922313b4cf124910b552cbc6b3a7ae3b45926.css" integrity="sha256-&#43;nk820ri1oP5zM2vHHkiMTtM8SSRC1UsvGs6euO0WSY=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js"></script>
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    About
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#background" class="nav-background">
+									Background
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#defining-the-problem" class="nav-defining-the-problem">
+									Defining the problem
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#introducing-the-ai-adoption-framework" class="nav-introducing-the-ai-adoption-framework">
+									Introducing the AI Adoption Framework
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#phase-1-minimalist" class="nav-phase-1-minimalist">
+									Phase 1, Minimalist
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#phase-2-collaborative" class="nav-phase-2-collaborative">
+									Phase 2, Collaborative
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#phase-3-accelerated" class="nav-phase-3-accelerated">
+									Phase 3, Accelerated
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#conclusion" class="nav-conclusion">
+									Conclusion
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://devashish.me/">
+            devashish.me
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://devashish.me/">
+        <div class="single-column-header-title">devashish.me</div>
+        
+        <div class="single-column-header-subtitle">building opinionated tech.</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    AI Adoption Framework for Engineering Teams
+                    
+                    <div class="post-subtitle">
+                        A goal-driven approach for engineering teams to adopt AI tools
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2025-08-19 14:04
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/ai-adoption">AI Adoption</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/automation">automation</a>
+                                &nbsp;
+                            
+                                <a href="/tags/ai">ai</a>
+                                &nbsp;
+                            
+                        
+                        
+                            <i class="material-icons" style="">schedule</i>
+                            
+
+                            
+                            
+
+                            
+                            5 min
+                            
+                            54 s.
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="background">Background</h1>
+<p>As with most engineering organization, &ldquo;Adopting AI&rdquo; became a mandate for our company sometime this year. No one knew what it really meant to be AI first but one thing was clear: Leadership expected engineering teams to lead the way on this initiative. Linkedin is rife with claims of engineers single handedly shipping entire products in weeks, sometime days or even while on a Zoom call. One has to pay attention when <a href="https://www.paulgraham.com/">PG</a> starts posting <a href="https://x.com/paulg/status/1953289830982664236">this</a>, right? Teams then move at light speed to procure licenses for whatever tools their leadership, board, peers, HN/Reddit posts and &ldquo;experts&rdquo; recommended.</p>
+<p>And then comes the hard (and fun) part.</p>
+<p>If you&rsquo;re like most engineering teams, then you saw a pattern. After the initial euphoria settled down and the teams got some ostensible wins, they didn&rsquo;t move at the amazing speed leaders expected. Bug count, regressions, PR review times, and release velocity barely moved despite every engineer burning hundreds of dollars worth of tokens daily.</p>
+<p>This happens because teams need more than guidance; they need goals. After observing multiple engineering teams navigate AI adoption, I observed a clear pattern: successful teams progress through three distinct phases in their AI adoption journey — Minimalist, Collaborative, and Accelerating. Each phase has specific goals, metrics to track those goals, investment requirements, and transition triggers.</p>
+<p>I&rsquo;ll introduce the three phases in this post and explain some behavioral traits of being in each phase</p>
+<h1 id="defining-the-problem">Defining the problem</h1>
+<p>Before I dive into the phases, I&rsquo;d like to share my thesis on why, despite immense adoption, <a href="https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/">around 95% of generative AI pilots are failing</a>. I view all new AI initiatives split into two broad categories: Internal and Product.</p>
+<ul>
+<li><strong>Internal</strong>: These initiatives aim to improve the overall output of the organization with same headcount. &ldquo;Do more with less&rdquo; seems to be the prevailing motto here. <a href="https://x.com/tobi/status/1909251946235437514">This memo</a> by Shopify CEO captures the sentiment pretty well.</li>
+<li><strong>Product</strong>: These initiatives aim to generate more revenue by increasing the product inventory, simplifying integrations, improving existing features, improve usability, expanding into new domains or all of the above.</li>
+</ul>
+<p>Although the framework I&rsquo;m working on focusses on Internal initiatives, and more specifically, for engineering teams and their stakeholders, it can be applied to the Product initiatives as well. I&rsquo;ll share the efficacy of this framework on Product initiatives once my experiments on that front reach their conclusion.</p>
+<p>There are two major problems that teams are facing with gen AI adoption, assuming teams have the leadership buy-in to do this.</p>
+<ol>
+<li>
+<p>Non-fungible learnings, success stories, runbooks, guidance and processes. Successful AI projects include both technical adoption as well as team, process, culture specific integrations. These teams codify their communication patterns, knowledge silos, hacks, runbooks and knowledge bases to build unique solutions which cannot be adopted as-is for anyone else.</p>
+</li>
+<li>
+<p>Lack of a cohesive approach. Any AI adoption framework must ensure that the individual productivity gains compound into team effectiveness, ultimately driving company-wide transformation. Efficiency gains only compound when they&rsquo;re aligned across individuals and teams. Lack of a converging approach results in productivity silos.</p>
+</li>
+</ol>
+<p>Consider two scenarios I&rsquo;ve encountered repeatedly:</p>
+<p><strong>Scenario 1</strong>: An 8-person team using Cursor and Claude Code sees initial excitement but no sustained gains. Their metrics—bugs, regressions, velocity—remain unchanged after three months. Engineers report lifechanging productivity gains but key metrics remain stagnant.
+<strong>Scenario 2</strong>: A mid-size organization with multiple teams struggles with database consistency. One team liberally uses database transactions while another uses them sparingly—for nearly identical microservices. Their code can&rsquo;t effectively merge or integrate. This creates operational overhead, capacity planning inconsistencies and architecture silos.</p>
+<p>In both scenarios, knowledge silos prevent measurable, impactful organizational improvements. Using AI tools without alignment just speeds up the pace at which teams head towards a conflict. A unifying framework helps individuals, teams and organizations bridge this gap. This doesn&rsquo;t mean prescribing the &ldquo;right&rdquo; way to adopt AI. It means providing them a framework for self-discovery while maintaining alignment.</p>
+<h1 id="introducing-the-ai-adoption-framework">Introducing the AI Adoption Framework</h1>
+<p>The framework I built to successfully adopt AI across engineering teams builds on three phases, each focussing on the &ldquo;What to do&rdquo; rather than &ldquo;How to do it&rdquo;. Each phase in this framework builds on top of the previous phase to compound the learnings into exponential gains.
+I created this AI Adoption Framework through multiple iterations and experiments. I&rsquo;ll continue to share my learnings as we explore new methods that work and the ones that don&rsquo;t.</p>
+<h2 id="phase-1-minimalist">Phase 1, Minimalist</h2>
+<p>Siloed AI adoption across individuals, processes and teams indicates this phase.
+Teams begin by augmenting existing tools with AI capabilities. Engineers replace traditional IDEs with Cursor or Windsurf. They adopt Claude Code to orchestrate changes across multiple files simultaneously. Engineers enhance code reviews through Copilot, Bugbot or similar tools. Engineers start creating custom prompts and GPTs to solve team-specific or product-specific problems.</p>
+<p>At this stage, engineers evolve from coders to orchestrators. Engineers no longer type every line—they direct AI tools to implement their vision. Most engineering teams are already here or getting here fast.</p>
+<p><strong>Measurable Checkpoints</strong>:</p>
+<ul>
+<li>80% of engineers save 10-20% time daily</li>
+<li>Sprint velocity increases by measurable story points</li>
+<li>Lines of code per engineer increases</li>
+<li>Number of tickets closed per sprint trends upward</li>
+</ul>
+<h2 id="phase-2-collaborative">Phase 2, Collaborative</h2>
+<p>Collaboration between teams and business units using AI tools and with AI tools.
+Teams now transform individual productivity gains into team-wide efficiency through codified expertise. This phase represents the first step toward agentic workflows. Knowledge sharing becomes embedded in prompts, CLAUDE.md files, and shared artifacts.</p>
+<p>Consider John, a DevOps expert who spends 60% of his day reviewing infrastructure PRs. John creates a Claude Code command: <code>/john-infra-review</code> and commits it to the project&rsquo;s <code>.claude/commands</code> folder.</p>
+<p>The command contains:</p>
+<ul>
+<li>All infrastructure review guidelines John follows and enforces</li>
+<li>Patterns extracted from analyzing five months of his PR comments</li>
+<li>Focus areas identified through LLM analysis of his review history</li>
+<li>Specific checks for security, scalability, and cost optimization</li>
+</ul>
+<p>Now any team member runs this command <em>before</em> raising an infrastructure PR. They receive feedback as if John personally reviewed their code. John&rsquo;s review load drops by 70%, PRs arrive pre-vetted, and he focuses on important architectural decisions rather than routine checks and formatting errors.
+This slash command creates the foundation for John&rsquo;s future autonomous agent.</p>
+<p><strong>Measurable Checkpoints</strong>:</p>
+<ul>
+<li>PR review time reduces by 40%. Indicates increased collaboration <em>before</em> sending the PR</li>
+<li>Average and 90th percentile review cycles count drop</li>
+<li>Cross-team collaborative projects complete 25% faster</li>
+<li>Delivery time for features involving multiple engineers decreases</li>
+</ul>
+<h2 id="phase-3-accelerated">Phase 3, Accelerated</h2>
+<p>Agentic and autonomous collaborating to drive business outcomes
+Teams now create autonomous agents that deliver non-trivial outcomes with the same headcount. The goal: make your team execute at 1.5x-2.0x its previous capacity.</p>
+<p>Consider an engineer writes a detailed Jira ticket with clear outcomes. Their personal agent:</p>
+<ul>
+<li>Picks up the task automatically</li>
+<li>Analyzes requirements and creates implementation plan</li>
+<li>Makes necessary codebase changes</li>
+<li>Submits changes to review agents created by teammate(s) in Phase 2</li>
+<li>Processes feedback and iterates on the solution</li>
+<li>Re-submits updated changes for agent review</li>
+<li>Only after passing all automated reviews, the agent creates a PR and tags human reviewers</li>
+</ul>
+<p>Engineers evolve into master orchestrators, focusing on architecture, design, cost impact, business alignment, and code quality standards. Teams automate mundane implementation details — the &ldquo;how&rdquo; — while humans focus on the &ldquo;what&rdquo; and &ldquo;why&rdquo;</p>
+<p><strong>Measurable Checkpoints</strong>:</p>
+<ul>
+<li>30% of tasks complete without human intervention on first iterations</li>
+<li>Regression rate drops by 45%</li>
+<li>Deployment frequency doubles</li>
+<li>Team delivers 1.5x-2.0x previous output, measured MoM</li>
+<li>Percentage of tasks requiring human input decreases from 100% baseline</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>I&rsquo;ve briefly introduced the AI adoption framework I&rsquo;m using and experimenting with in this post.
+In the next series of posts, I&rsquo;ll dive into mechanisms I used with my teams to successfully move through each stage. I&rsquo;ll also talk about common symptoms of teams that are stuck in a certain stage and how to move past those blockers.</p>
+<p>Stay tuned!</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2025-08-19</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/initial_commit/">
+			Previous<br>Initial Commit
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+                <p style="opacity: 0.6" align="center">
+                    <small>Comments Disabled.</small>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://devashish.me/">
+    
+        <div class="nav-title">
+            devashish.me
+        </div>
+        
+        <div class="nav-subtitle">
+            building opinionated tech.
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                About
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+
+&copy;
+	
+	2025 Devashish Meena; All rights reserved
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#background" class="nav-background">
+									Background
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#defining-the-problem" class="nav-defining-the-problem">
+									Defining the problem
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#introducing-the-ai-adoption-framework" class="nav-introducing-the-ai-adoption-framework">
+									Introducing the AI Adoption Framework
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#phase-1-minimalist" class="nav-phase-1-minimalist">
+									Phase 1, Minimalist
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#phase-2-collaborative" class="nav-phase-2-collaborative">
+									Phase 2, Collaborative
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#phase-3-accelerated" class="nav-phase-3-accelerated">
+									Phase 3, Accelerated
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#conclusion" class="nav-conclusion">
+									Conclusion
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+
+&copy;
+	
+	2025 Devashish Meena; All rights reserved
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

@@ -7,35 +7,105 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2025 Devashish Meena; All rights reserved</copyright>
-    <lastBuildDate>Fri, 29 Nov 2024 23:16:31 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 14:04:26 -0700</lastBuildDate>
     
         <atom:link href="https://devashish.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
-        <title>About</title>
-        <link>https://devashish.me/about/</link>
-        <pubDate>Fri, 29 Nov 2024 23:16:31 -0700</pubDate>
+        <title>AI Adoption Framework for Engineering Teams</title>
+        <link>https://devashish.me/posts/ai-adoption-framework/</link>
+        <pubDate>Tue, 19 Aug 2025 14:04:26 -0700</pubDate>
         
-        <guid>https://devashish.me/about/</guid>
-        <description>devashish.me https://devashish.me/about/ -&lt;p&gt;I am a seasoned technology leader with 15+ years of experience scaling engineering organizations,
-driving product innovation, and aligning technology strategies with business goals.
-Having worked with four early-stage startups, including two successful exits, I’ve honed my expertise
-in building enterprise and consumer products from the ground up.&lt;/p&gt;
-&lt;p&gt;My journey has been defined by leading distributed teams to deliver secure, scalable,
-and high-growth products. With a primary focus on designing iterative application architectures,
-I specialize in creating solutions that maximize value and enable organizations to deploy code faster
-through automation-first approach. These processes have not only optimized developer productivity
-but have also fostered team learning and cross-functional collaboration.&lt;/p&gt;
-&lt;p&gt;When not working, I enjoy cooking, reading, hiking, running, and riding my motorcycle.&lt;/p&gt;
-&lt;p&gt;You can connect with me on &lt;a href=&#34;https://www.linkedin.com/in/devashishm/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Disclaimers&lt;/strong&gt;:&lt;/p&gt;
+        <guid>https://devashish.me/posts/ai-adoption-framework/</guid>
+        <description>devashish.me https://devashish.me/posts/ai-adoption-framework/ -&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
+&lt;p&gt;As with most engineering organization, &amp;ldquo;Adopting AI&amp;rdquo; became a mandate for our company sometime this year. No one knew what it really meant to be AI first but one thing was clear: Leadership expected engineering teams to lead the way on this initiative. Linkedin is rife with claims of engineers single handedly shipping entire products in weeks, sometime days or even while on a Zoom call. One has to pay attention when &lt;a href=&#34;https://www.paulgraham.com/&#34;&gt;PG&lt;/a&gt; starts posting &lt;a href=&#34;https://x.com/paulg/status/1953289830982664236&#34;&gt;this&lt;/a&gt;, right? Teams then move at light speed to procure licenses for whatever tools their leadership, board, peers, HN/Reddit posts and &amp;ldquo;experts&amp;rdquo; recommended.&lt;/p&gt;
+&lt;p&gt;And then comes the hard (and fun) part.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re like most engineering teams, then you saw a pattern. After the initial euphoria settled down and the teams got some ostensible wins, they didn&amp;rsquo;t move at the amazing speed leaders expected. Bug count, regressions, PR review times, and release velocity barely moved despite every engineer burning hundreds of dollars worth of tokens daily.&lt;/p&gt;
+&lt;p&gt;This happens because teams need more than guidance; they need goals. After observing multiple engineering teams navigate AI adoption, I observed a clear pattern: successful teams progress through three distinct phases in their AI adoption journey — Minimalist, Collaborative, and Accelerating. Each phase has specific goals, metrics to track those goals, investment requirements, and transition triggers.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll introduce the three phases in this post and explain some behavioral traits of being in each phase&lt;/p&gt;
+&lt;h1 id=&#34;defining-the-problem&#34;&gt;Defining the problem&lt;/h1&gt;
+&lt;p&gt;Before I dive into the phases, I&amp;rsquo;d like to share my thesis on why, despite immense adoption, &lt;a href=&#34;https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/&#34;&gt;around 95% of generative AI pilots are failing&lt;/a&gt;. I view all new AI initiatives split into two broad categories: Internal and Product.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;All views expressed on this site are my own and do not represent the opinions of my employers or any other organization.&lt;/li&gt;
-&lt;li&gt;All images © 2024 Devashish Meena.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internal&lt;/strong&gt;: These initiatives aim to improve the overall output of the organization with same headcount. &amp;ldquo;Do more with less&amp;rdquo; seems to be the prevailing motto here. &lt;a href=&#34;https://x.com/tobi/status/1909251946235437514&#34;&gt;This memo&lt;/a&gt; by Shopify CEO captures the sentiment pretty well.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product&lt;/strong&gt;: These initiatives aim to generate more revenue by increasing the product inventory, simplifying integrations, improving existing features, improve usability, expanding into new domains or all of the above.&lt;/li&gt;
 &lt;/ul&gt;
-- https://devashish.me/about/ - 2025 Devashish Meena; All rights reserved</description>
+&lt;p&gt;Although the framework I&amp;rsquo;m working on focusses on Internal initiatives, and more specifically, for engineering teams and their stakeholders, it can be applied to the Product initiatives as well. I&amp;rsquo;ll share the efficacy of this framework on Product initiatives once my experiments on that front reach their conclusion.&lt;/p&gt;
+&lt;p&gt;There are two major problems that teams are facing with gen AI adoption, assuming teams have the leadership buy-in to do this.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Non-fungible learnings, success stories, runbooks, guidance and processes. Successful AI projects include both technical adoption as well as team, process, culture specific integrations. These teams codify their communication patterns, knowledge silos, hacks, runbooks and knowledge bases to build unique solutions which cannot be adopted as-is for anyone else.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lack of a cohesive approach. Any AI adoption framework must ensure that the individual productivity gains compound into team effectiveness, ultimately driving company-wide transformation. Efficiency gains only compound when they&amp;rsquo;re aligned across individuals and teams. Lack of a converging approach results in productivity silos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Consider two scenarios I&amp;rsquo;ve encountered repeatedly:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scenario 1&lt;/strong&gt;: An 8-person team using Cursor and Claude Code sees initial excitement but no sustained gains. Their metrics—bugs, regressions, velocity—remain unchanged after three months. Engineers report lifechanging productivity gains but key metrics remain stagnant.
+&lt;strong&gt;Scenario 2&lt;/strong&gt;: A mid-size organization with multiple teams struggles with database consistency. One team liberally uses database transactions while another uses them sparingly—for nearly identical microservices. Their code can&amp;rsquo;t effectively merge or integrate. This creates operational overhead, capacity planning inconsistencies and architecture silos.&lt;/p&gt;
+&lt;p&gt;In both scenarios, knowledge silos prevent measurable, impactful organizational improvements. Using AI tools without alignment just speeds up the pace at which teams head towards a conflict. A unifying framework helps individuals, teams and organizations bridge this gap. This doesn&amp;rsquo;t mean prescribing the &amp;ldquo;right&amp;rdquo; way to adopt AI. It means providing them a framework for self-discovery while maintaining alignment.&lt;/p&gt;
+&lt;h1 id=&#34;introducing-the-ai-adoption-framework&#34;&gt;Introducing the AI Adoption Framework&lt;/h1&gt;
+&lt;p&gt;The framework I built to successfully adopt AI across engineering teams builds on three phases, each focussing on the &amp;ldquo;What to do&amp;rdquo; rather than &amp;ldquo;How to do it&amp;rdquo;. Each phase in this framework builds on top of the previous phase to compound the learnings into exponential gains.
+I created this AI Adoption Framework through multiple iterations and experiments. I&amp;rsquo;ll continue to share my learnings as we explore new methods that work and the ones that don&amp;rsquo;t.&lt;/p&gt;
+&lt;h2 id=&#34;phase-1-minimalist&#34;&gt;Phase 1, Minimalist&lt;/h2&gt;
+&lt;p&gt;Siloed AI adoption across individuals, processes and teams indicates this phase.
+Teams begin by augmenting existing tools with AI capabilities. Engineers replace traditional IDEs with Cursor or Windsurf. They adopt Claude Code to orchestrate changes across multiple files simultaneously. Engineers enhance code reviews through Copilot, Bugbot or similar tools. Engineers start creating custom prompts and GPTs to solve team-specific or product-specific problems.&lt;/p&gt;
+&lt;p&gt;At this stage, engineers evolve from coders to orchestrators. Engineers no longer type every line—they direct AI tools to implement their vision. Most engineering teams are already here or getting here fast.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Measurable Checkpoints&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;80% of engineers save 10-20% time daily&lt;/li&gt;
+&lt;li&gt;Sprint velocity increases by measurable story points&lt;/li&gt;
+&lt;li&gt;Lines of code per engineer increases&lt;/li&gt;
+&lt;li&gt;Number of tickets closed per sprint trends upward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;phase-2-collaborative&#34;&gt;Phase 2, Collaborative&lt;/h2&gt;
+&lt;p&gt;Collaboration between teams and business units using AI tools and with AI tools.
+Teams now transform individual productivity gains into team-wide efficiency through codified expertise. This phase represents the first step toward agentic workflows. Knowledge sharing becomes embedded in prompts, CLAUDE.md files, and shared artifacts.&lt;/p&gt;
+&lt;p&gt;Consider John, a DevOps expert who spends 60% of his day reviewing infrastructure PRs. John creates a Claude Code command: &lt;code&gt;/john-infra-review&lt;/code&gt; and commits it to the project&amp;rsquo;s &lt;code&gt;.claude/commands&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;The command contains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All infrastructure review guidelines John follows and enforces&lt;/li&gt;
+&lt;li&gt;Patterns extracted from analyzing five months of his PR comments&lt;/li&gt;
+&lt;li&gt;Focus areas identified through LLM analysis of his review history&lt;/li&gt;
+&lt;li&gt;Specific checks for security, scalability, and cost optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now any team member runs this command &lt;em&gt;before&lt;/em&gt; raising an infrastructure PR. They receive feedback as if John personally reviewed their code. John&amp;rsquo;s review load drops by 70%, PRs arrive pre-vetted, and he focuses on important architectural decisions rather than routine checks and formatting errors.
+This slash command creates the foundation for John&amp;rsquo;s future autonomous agent.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Measurable Checkpoints&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PR review time reduces by 40%. Indicates increased collaboration &lt;em&gt;before&lt;/em&gt; sending the PR&lt;/li&gt;
+&lt;li&gt;Average and 90th percentile review cycles count drop&lt;/li&gt;
+&lt;li&gt;Cross-team collaborative projects complete 25% faster&lt;/li&gt;
+&lt;li&gt;Delivery time for features involving multiple engineers decreases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;phase-3-accelerated&#34;&gt;Phase 3, Accelerated&lt;/h2&gt;
+&lt;p&gt;Agentic and autonomous collaborating to drive business outcomes
+Teams now create autonomous agents that deliver non-trivial outcomes with the same headcount. The goal: make your team execute at 1.5x-2.0x its previous capacity.&lt;/p&gt;
+&lt;p&gt;Consider an engineer writes a detailed Jira ticket with clear outcomes. Their personal agent:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Picks up the task automatically&lt;/li&gt;
+&lt;li&gt;Analyzes requirements and creates implementation plan&lt;/li&gt;
+&lt;li&gt;Makes necessary codebase changes&lt;/li&gt;
+&lt;li&gt;Submits changes to review agents created by teammate(s) in Phase 2&lt;/li&gt;
+&lt;li&gt;Processes feedback and iterates on the solution&lt;/li&gt;
+&lt;li&gt;Re-submits updated changes for agent review&lt;/li&gt;
+&lt;li&gt;Only after passing all automated reviews, the agent creates a PR and tags human reviewers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Engineers evolve into master orchestrators, focusing on architecture, design, cost impact, business alignment, and code quality standards. Teams automate mundane implementation details — the &amp;ldquo;how&amp;rdquo; — while humans focus on the &amp;ldquo;what&amp;rdquo; and &amp;ldquo;why&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Measurable Checkpoints&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;30% of tasks complete without human intervention on first iterations&lt;/li&gt;
+&lt;li&gt;Regression rate drops by 45%&lt;/li&gt;
+&lt;li&gt;Deployment frequency doubles&lt;/li&gt;
+&lt;li&gt;Team delivers 1.5x-2.0x previous output, measured MoM&lt;/li&gt;
+&lt;li&gt;Percentage of tasks requiring human input decreases from 100% baseline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve briefly introduced the AI adoption framework I&amp;rsquo;m using and experimenting with in this post.
+In the next series of posts, I&amp;rsquo;ll dive into mechanisms I used with my teams to successfully move through each stage. I&amp;rsquo;ll also talk about common symptoms of teams that are stuck in a certain stage and how to move past those blockers.&lt;/p&gt;
+&lt;p&gt;Stay tuned!&lt;/p&gt;
+- https://devashish.me/posts/ai-adoption-framework/ - 2025 Devashish Meena; All rights reserved</description>
         </item>
     
     
@@ -43,23 +113,41 @@ but have also fostered team learning and cross-functional collaboration.&lt;/p&g
         <item>
         <title>Initial Commit</title>
         <link>https://devashish.me/posts/initial_commit/</link>
-        <pubDate>Wed, 16 Sep 2020 14:04:26 -0700</pubDate>
+        <pubDate>Tue, 19 Aug 2025 14:04:26 -0700</pubDate>
         
         <guid>https://devashish.me/posts/initial_commit/</guid>
-        <description>devashish.me https://devashish.me/posts/initial_commit/ -&lt;p&gt;For the V4 version of this blog, I&amp;rsquo;ve decided to remove all the old entries and start
-from scratch. With one significant change though: posting tech content only.&lt;/p&gt;
-&lt;p&gt;Over time I&amp;rsquo;ve lost interest in writing travel blogs and inflicting my unfiltered
-thoughts on public forums. At the same time, I&amp;rsquo;d started documenting my
-experiences and learnings at work, conversations with other people in industry
-and takeaways from reading up on the topics that excite me.&lt;/p&gt;
-&lt;p&gt;I (re)started this blog with a few objectives&lt;/p&gt;
+        <description>devashish.me https://devashish.me/posts/initial_commit/ -&lt;p&gt;Over the years, I have shifted away from general blogging and toward documenting my professional experiences and learnings. As I explore new tools, technologies, processes, and frameworks in the AI-driven landscape, I feel it&amp;rsquo;s important to document my journey and the insights I gather along the way.&lt;/p&gt;
+&lt;p&gt;The rapid evolution of artificial intelligence and related technologies presents unique challenges and opportunities for engineering leaders and practitioners. With this blog, I aim to contribute to and join the broader conversation around AI implementation and engineering best practices.&lt;/p&gt;
+&lt;p&gt;I have established this blog with simple objectives:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Document my journey in building tech solutions&lt;/li&gt;
-&lt;li&gt;Keep notes about interesting concepts, their implementations and other aspects&lt;/li&gt;
-&lt;li&gt;Have discussion(s) about the &amp;ldquo;right&amp;rdquo; way to solve problems&lt;/li&gt;
+&lt;li&gt;Write meaningful, practical content based on my personal experience. Avoid adding to &lt;a href=&#34;https://en.wikipedia.org/wiki/AI_slop&#34;&gt;AI Slop&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;I will definitely use AI tools for research, proofreading my content and make them impactful for the target audience. But the content will originate from my own writing and experiences.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To new beginnings!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Share my (highly opinionated) views on impact of AI on engineering teams, organizations and culture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To new beginnings and continuous learning!&lt;/p&gt;
 - https://devashish.me/posts/initial_commit/ - 2025 Devashish Meena; All rights reserved</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>About</title>
+        <link>https://devashish.me/about/</link>
+        <pubDate>Thu, 14 Aug 2025 23:16:31 -0700</pubDate>
+        
+        <guid>https://devashish.me/about/</guid>
+        <description>devashish.me https://devashish.me/about/ -&lt;p&gt;I am a seasoned technology leader with 15+ years of experience scaling engineering organizations and driving product innovation. Having worked with four early-stage startups, including two successful exits, I&amp;rsquo;ve built enterprise and consumer products from the ground up. My startup journey includes participating in the &lt;a href=&#34;https://www.techstars.com/&#34;&gt;Techstars&lt;/a&gt; Seattle accelerator, where I was part of the founding team that scaled from inception to acquisition.&lt;/p&gt;
+&lt;p&gt;On the technical front, I&amp;rsquo;ve built products serving both enterprise and consumer markets. Through developer experience improvements and AI-powered initiatives, I&amp;rsquo;ve driven up to 50% improvement in engineering velocity. My DevOps, automation, and cost optimization strategies have reduced operational and infrastructure costs. I&amp;rsquo;ve designed multi-cloud strategies leveraging AWS, GCP, and Azure, while also building on-premises solutions for enterprises with complex compliance requirements. These architectures handle millions of daily operations and have scaled to serve tens of thousands of users globally.&lt;/p&gt;
+&lt;p&gt;As an engineering leader, I&amp;rsquo;ve built and managed distributed teams, establishing engineering career paths and organizational structures that foster growth. Working closely with executive leadership teams, I&amp;rsquo;ve driven organizational outcomes including COGS optimization and strategic technology investments. My leadership scope includes vendor and partner management, ensuring successful integrations and maximizing value from external relationships. I specialize in creating automation-first cultures that not only optimize developer productivity but also foster team learning and cross-functional collaboration.&lt;/p&gt;
+&lt;p&gt;You can connect with me on &lt;a href=&#34;https://www.linkedin.com/in/devashishm/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimers&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All views expressed on this site are my own and do not represent the opinions of my employers or any other organization.&lt;/li&gt;
+&lt;/ul&gt;
+- https://devashish.me/about/ - 2025 Devashish Meena; All rights reserved</description>
         </item>
     
     

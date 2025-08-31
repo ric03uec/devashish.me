@@ -2,20 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://devashish.me/about/</loc>
-    <lastmod>2024-11-29T23:16:31-07:00</lastmod>
+    <loc>https://devashish.me/tags/ai/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
   </url><url>
-    <loc>https://devashish.me/</loc>
-    <lastmod>2024-11-29T23:16:31-07:00</lastmod>
+    <loc>https://devashish.me/categories/ai-adoption/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
   </url><url>
-    <loc>https://devashish.me/posts/initial_commit/</loc>
-    <lastmod>2020-09-16T14:04:26-07:00</lastmod>
+    <loc>https://devashish.me/posts/ai-adoption-framework/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
   </url><url>
-    <loc>https://devashish.me/posts/</loc>
-    <lastmod>2020-09-16T14:04:26-07:00</lastmod>
+    <loc>https://devashish.me/tags/automation/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
   </url><url>
     <loc>https://devashish.me/categories/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
+  </url><url>
+    <loc>https://devashish.me/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
+  </url><url>
+    <loc>https://devashish.me/categories/general/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
+  </url><url>
+    <loc>https://devashish.me/posts/initial_commit/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
+  </url><url>
+    <loc>https://devashish.me/tags/meta/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
+  </url><url>
+    <loc>https://devashish.me/posts/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
   </url><url>
     <loc>https://devashish.me/tags/</loc>
+    <lastmod>2025-08-19T14:04:26-07:00</lastmod>
+  </url><url>
+    <loc>https://devashish.me/about/</loc>
+    <lastmod>2025-08-14T23:16:31-07:00</lastmod>
   </url>
 </urlset>
