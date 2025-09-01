@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Adoption on devashish.me</title>
-    <link>https://devashish.me/categories/ai-adoption/</link>
+    <link>https://src.devashish.me/categories/ai-adoption/</link>
     <description>Recent content in AI Adoption on devashish.me</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2025 Devashish Meena; All rights reserved</copyright>
     <lastBuildDate>Tue, 19 Aug 2025 14:04:26 -0700</lastBuildDate>
-    <atom:link href="https://devashish.me/categories/ai-adoption/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://src.devashish.me/categories/ai-adoption/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Adoption Framework for Engineering Teams</title>
-      <link>https://devashish.me/posts/ai-adoption-framework/</link>
+      <link>https://src.devashish.me/posts/ai-adoption-framework/</link>
       <pubDate>Tue, 19 Aug 2025 14:04:26 -0700</pubDate>
-      <guid>https://devashish.me/posts/ai-adoption-framework/</guid>
+      <guid>https://src.devashish.me/posts/ai-adoption-framework/</guid>
       <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;As with most engineering organization, &amp;ldquo;Adopting AI&amp;rdquo; became a mandate for our company sometime this year. No one knew what it really meant to be AI first but one thing was clear: Leadership expected engineering teams to lead the way on this initiative. Linkedin is rife with claims of engineers single handedly shipping entire products in weeks, sometime days or even while on a Zoom call. One has to pay attention when &lt;a href=&#34;https://www.paulgraham.com/&#34;&gt;PG&lt;/a&gt; starts posting &lt;a href=&#34;https://x.com/paulg/status/1953289830982664236&#34;&gt;this&lt;/a&gt;, right? Teams then move at light speed to procure licenses for whatever tools their leadership, board, peers, HN/Reddit posts and &amp;ldquo;experts&amp;rdquo; recommended.&lt;/p&gt;</description>
     </item>
   </channel>
